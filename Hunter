@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "pet spawner",
+   Name = "ps 99 huge hunter",
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Loading...",
    LoadingSubtitle = "by naj",
@@ -34,12 +34,12 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local MainTab = Window:CreateTab("ps99 pet spawn", nil) -- Title, Image
+local MainTab = Window:CreateTab("huge hunter", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 local Button = MainTab:CreateButton({
-   Name = "start spawn",
+   Name = "start huge hunter",
    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/Scripts/refs/heads/main/a5db65315ac37b5dd0fdc0d0.lua'))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/janhub1/Huge-hunter-op3/refs/heads/main/Huge"))()
    end,
 })
